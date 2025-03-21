@@ -1,0 +1,120 @@
+body, html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-image: url('fondo.webp');
+}
+
+.imagenes  {
+  width: 200px;
+  height: 200px;
+}
+
+.progress {
+  height: 10px;
+  background: rgb(0, 225, 255);
+}
+
+.progress-bar{
+  background: lightgray;
+  width: 100px;
+}
+
+.pelicula-card{
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000000;
+  justify-items: center;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.peliculas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+}
+
+.botonNum{
+  background: white;
+  margin: 6px;
+  width: 40px;
+  height: 40px;
+}
+
+.botonNum.active{
+  border-color: red;
+  color: red;
+}
+
+.botonNum:hover{
+  background: rgb(255, 0, 0);
+  color: white;
+  cursor: pointer;
+  border: 1px transparent;
+  transition: 0.5s;
+}
+
+.botonLupa{
+  background-color: white;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+input {
+  margin: 6px;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  padding: 0px;
+}
+
+.buscar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
